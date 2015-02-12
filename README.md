@@ -1,9 +1,11 @@
 # mvp-baby
 
-## Site para o bebe
+## Features
+### Site para o bebe
+### Enxoval
+### Chá de bebe
+### Festa de 1 aninho
 
-## Enxoval
+## Frase de impacto
 
-## Chá de bebe
-
-## Festa de 1 aninho
+### Organize seu enxoval e crie um site personalizado para seu bebe.
