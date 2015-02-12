@@ -1463,3 +1463,35 @@ Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-12 08:07:26 
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-12 08:07:26 -0200
+  [1m[36mLead Load (1.9ms)[0m  [1mSELECT  "leads".* FROM "leads"  LIMIT 10[0m
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-12 08:27:38 -0200
+Processing by LeadsController#new as HTML
+  Rendered leads/_form.html.erb (6.8ms)
+  Rendered leads/new.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 60ms (Views: 47.7ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/assets/leads.css?body=1" for 127.0.0.1 at 2015-02-12 08:27:38 -0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-12 08:27:38 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-12 08:27:38 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-12 08:27:38 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-12 08:27:38 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-12 08:27:38 -0200
+
+
+Started GET "/assets/leads.js?body=1" for 127.0.0.1 at 2015-02-12 08:27:38 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-12 08:27:38 -0200
