@@ -81,5 +81,5 @@ test:
 production:
   <<: *default
   database: mvp-baby_production
-  # username: mvp-baby
+  username: mvp-baby
   password: <%= ENV['MVP-BABY_DATABASE_PASSWORD'] %>
