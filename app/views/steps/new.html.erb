@@ -1,0 +1,37 @@
+<%= form_for(@child) do |f| %>
+  <% if @child.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@child.errors.count, "error") %> prohibited this child from being saved:</h2>
+
+      <ul>
+      <% @child.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="child">
+    Primeiro Nome
+    <%= f.text_field :first_name %>
+
+    <br>
+
+    Sobrenome
+    <%= f.text_field :last_name %>
+
+    <br>
+
+    Apelido
+    <%= f.text_field :nickname %>
+
+    <br>
+
+    Nascimento
+    <%= f.date_field :birthday %>
+
+    <br>
+
+    <%= f.submit class: "btn-default", value: "Salvar" %>
+  </div>
+<% end %>

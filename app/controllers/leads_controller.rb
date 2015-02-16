@@ -1,14 +1,23 @@
 class LeadsController < ApplicationController
 
-  def new
+  layout 'site'
+
+  def index
     @lead = Lead.new
   end
 
   def create
-    @lead = Lead.new(lead_params)
-    @lead.save
+    #unless params[:email].blank?
+      @lead = Lead.new(lead_params)
+      @lead.save
 
-    render :new
+#      render 'steps/child'
+
+      steps = { controller: :steps, action: :new }
+      redirect_to steps
+
+
+    #end
   end
 
   private

@@ -11,11 +11,13 @@
     </div>
   <% end %>
 
-  <div class="field">
-    <%= f.label :email %><br>
-    <%= f.text_field :email %>
+  <div class="land-message">
+    <p> Crie um site personalizado para encantar seus familiares e amigos com a
+      chegada da nova herdeira da familia.  </p>
   </div>
-  <div class="actions">
-    <%= f.submit %>
+
+  <div class="land-lead">
+    <%= f.text_field :email, class: "input-default input-lead", placeholder: "Informe seu email" %>
+    <%= f.submit class: "btn-default btn-lead", value: "Experimentar agora" %>
   </div>
 <% end %>

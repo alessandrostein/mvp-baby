@@ -12,4 +12,24 @@
  *
  *= require_tree .
  *= require_self
+ *= require sweet-alert
+ *= require landing-page
  */
+
+ body {
+  margin: 0;
+  padding: 0;
+ }
+
+.header {
+  height: 150px;
+}
+
+.footer {
+  height: 100px;
+}
+
+.content {
+  margin-left: 200px;
+  margin-right: 200px;
+}
