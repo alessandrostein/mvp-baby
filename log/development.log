@@ -11837,3 +11837,16 @@ Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-16 17:53:11 
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-16 17:53:11 -0200
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-16 21:25:25 -0200
+
+NoMethodError (undefined method `devise_for' for #<ActionDispatch::Routing::Mapper:0x00000004397958>):
+  config/routes.rb:2:in `block in <top (required)>'
+  config/routes.rb:1:in `<top (required)>'
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (39.7ms)
