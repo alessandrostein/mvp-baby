@@ -11,13 +11,21 @@
     </div>
   <% end %>
 
-  <div class="land-message">
-    <p> Crie um site personalizado para encantar seus familiares e amigos com a
-      chegada da nova herdeira da familia.  </p>
-  </div>
+  <% unless @lead.email %>
+    <div class="land-message">
+      <p> Crie um site personalizado para encantar seus familiares e amigos com a
+          chegada da nova herdeira da familia.  </p>
+    </div>
 
-  <div class="land-lead">
-    <%= f.text_field :email, class: "input-default input-lead", placeholder: "Informe seu email" %>
-    <%= f.submit class: "btn-default btn-lead", value: "Experimentar agora" %>
-  </div>
+    <div class="land-lead">
+      <%= f.text_field :email, class: "input-default input-lead", placeholder: "Informe seu email" %>
+      <%= f.submit class: "btn-default btn-lead", value: "Experimentar agora" %>
+    </div>
+  <% else %>
+    <div class="land-message">
+      <p> Registramos seu email com sucessom, em breve você receberá mais informações por email.
+          Qualquer dúvida, sugestão envie um email para alessandro@alessandrostein.com  </p>
+    </div>
+
+  <% end %>
 <% end %>
