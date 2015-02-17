@@ -11549,9 +11549,4 @@ return jQuery;
 
 
 
-
-$(function () {
-  $('.input-lead').bind('click', function(){
-    alert("ops");
-  });
-};
+;

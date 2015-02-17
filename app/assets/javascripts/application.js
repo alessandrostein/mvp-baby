@@ -14,9 +14,3 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
-
-$(function () {
-  $('.input-lead').bind('click', function(){
-    alert("ops");
-  });
-};
