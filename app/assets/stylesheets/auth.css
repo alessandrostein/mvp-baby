@@ -1,0 +1,35 @@
+.auth {
+  display: inline;
+  position: relative;
+  float: right;
+  margin-right: 50px;
+  margin-top: 30px;
+}
+
+.auth div {
+  display: inline;
+  margin-right: 20px;
+}
+
+.auth div a {
+  text-decoration: none;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 700;
+  color: #fff;
+}
+
+.auth-login {
+
+}
+
+.auth-logout {
+
+}
+
+.auth-edit {
+
+}
+
+.auth-register {
+
+}
