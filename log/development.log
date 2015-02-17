@@ -14566,3 +14566,155 @@ Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-17 12:28:39 
 
 
 Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-17 12:28:39 -0200
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-17 15:51:16 -0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by LeadsController#index as HTML
+  Rendered leads/_auth.html.erb (7.8ms)
+  Rendered leads/_form.html.erb (109.5ms)
+  Rendered leads/index.html.erb within layouts/site (122.7ms)
+Completed 200 OK in 204ms (Views: 180.9ms | ActiveRecord: 5.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-17 15:51:17 -0200
+Processing by LeadsController#index as HTML
+  Rendered leads/_auth.html.erb (1.5ms)
+  Rendered leads/_form.html.erb (2.3ms)
+  Rendered leads/index.html.erb within layouts/site (6.6ms)
+Completed 200 OK in 54ms (Views: 52.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/auth.css?body=1" for 127.0.0.1 at 2015-02-17 15:51:17 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-17 15:51:17 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-17 15:51:17 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-17 15:51:17 -0200
+
+
+Started GET "/assets/landing-page.css?body=1" for 127.0.0.1 at 2015-02-17 15:51:17 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-17 15:51:17 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-17 15:51:17 -0200
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2015-02-17 15:58:20 -0200
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/devise-3.4.1/app/views/devise/shared/_links.html.erb (1.9ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/devise-3.4.1/app/views/devise/registrations/new.html.erb (36.5ms)
+Completed 200 OK in 47ms (Views: 39.2ms | ActiveRecord: 4.7ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2015-02-17 15:58:20 -0200
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/devise-3.4.1/app/views/devise/shared/_links.html.erb (0.2ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/devise-3.4.1/app/views/devise/registrations/new.html.erb (6.0ms)
+Completed 200 OK in 12ms (Views: 10.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-02-17 16:11:01 -0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/devise-3.4.1/app/views/devise/shared/_links.html.erb (0.5ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/devise-3.4.1/app/views/devise/sessions/new.html.erb (16.5ms)
+Completed 200 OK in 26ms (Views: 21.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-02-17 16:11:02 -0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/devise-3.4.1/app/views/devise/shared/_links.html.erb (0.3ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/devise-3.4.1/app/views/devise/sessions/new.html.erb (3.0ms)
+Completed 200 OK in 8ms (Views: 6.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-17 16:17:13 -0200
+Processing by LeadsController#index as HTML
+  Rendered leads/_auth.html.erb (0.7ms)
+  Rendered leads/_form.html.erb (1.1ms)
+  Rendered leads/index.html.erb within layouts/site (2.9ms)
+Completed 200 OK in 93ms (Views: 92.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-17 16:17:14 -0200
+
+
+Started GET "/assets/landing-page.css?body=1" for 127.0.0.1 at 2015-02-17 16:17:14 -0200
+
+
+Started GET "/assets/auth.css?body=1" for 127.0.0.1 at 2015-02-17 16:17:14 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-17 16:17:14 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-17 16:17:14 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-17 16:17:14 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-17 16:17:14 -0200
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-17 16:17:41 -0200
+Processing by LeadsController#index as HTML
+  Rendered leads/_auth.html.erb (0.3ms)
+  Rendered leads/_form.html.erb (0.9ms)
+  Rendered leads/index.html.erb within layouts/site (2.0ms)
+Completed 200 OK in 43ms (Views: 41.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/auth.css?body=1" for 127.0.0.1 at 2015-02-17 16:17:41 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-17 16:17:41 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-17 16:17:41 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-17 16:17:41 -0200
+
+
+Started GET "/assets/landing-page.css?body=1" for 127.0.0.1 at 2015-02-17 16:17:41 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-17 16:17:41 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-17 16:17:41 -0200
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2015-02-17 16:29:48 -0200
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/devise-3.4.1/app/views/devise/shared/_links.html.erb (0.2ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/devise-3.4.1/app/views/devise/registrations/new.html.erb (3.0ms)
+Completed 200 OK in 10ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2015-02-17 16:29:48 -0200
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/devise-3.4.1/app/views/devise/shared/_links.html.erb (0.3ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/devise-3.4.1/app/views/devise/registrations/new.html.erb (4.1ms)
+Completed 200 OK in 13ms (Views: 10.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2015-02-17 16:29:54 -0200
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/devise-3.4.1/app/views/devise/shared/_links.html.erb (0.3ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/devise-3.4.1/app/views/devise/registrations/new.html.erb (3.1ms)
+Completed 200 OK in 8ms (Views: 6.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2015-02-17 16:29:54 -0200
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/devise-3.4.1/app/views/devise/shared/_links.html.erb (0.4ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/devise-3.4.1/app/views/devise/registrations/new.html.erb (3.2ms)
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.0ms)
