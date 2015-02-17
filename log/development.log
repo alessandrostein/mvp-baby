@@ -12386,3 +12386,115 @@ Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-17 08:16:33 
 
 
 Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-17 08:16:33 -0200
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-17 09:39:28 -0200
+Processing by LeadsController#index as HTML
+  Rendered leads/_form.html.erb (1.8ms)
+  Rendered leads/index.html.erb within layouts/site (2.6ms)
+Completed 200 OK in 59ms (Views: 58.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/landing-page.css?body=1" for 127.0.0.1 at 2015-02-17 09:39:28 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-17 09:39:28 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-17 09:39:28 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-17 09:39:28 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-17 09:39:28 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-17 09:39:28 -0200
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-17 09:39:31 -0200
+Processing by LeadsController#index as HTML
+  Rendered leads/_form.html.erb (1.0ms)
+  Rendered leads/index.html.erb within layouts/site (1.5ms)
+Completed 200 OK in 33ms (Views: 31.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-17 09:39:31 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-17 09:39:31 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-17 09:39:31 -0200
+
+
+Started GET "/assets/landing-page.css?body=1" for 127.0.0.1 at 2015-02-17 09:39:31 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-17 09:39:31 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-17 09:39:31 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-17 09:39:48 -0200
+
+
+Started GET "/assets/landing-page.css?body=1" for 127.0.0.1 at 2015-02-17 09:40:00 -0200
+
+
+Started GET "/assets/landing-page.css?body=1" for 127.0.0.1 at 2015-02-17 09:40:53 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-17 09:40:53 -0200
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-17 09:41:32 -0200
+Processing by LeadsController#index as HTML
+  Rendered leads/_form.html.erb (1.1ms)
+  Rendered leads/index.html.erb within layouts/site (1.7ms)
+Completed 200 OK in 42ms (Views: 40.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/landing-page.css?body=1" for 127.0.0.1 at 2015-02-17 09:41:32 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-17 09:41:32 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-17 09:41:32 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-17 09:41:32 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-17 09:41:32 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-17 09:41:32 -0200
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-17 09:42:33 -0200
+Processing by LeadsController#index as HTML
+  Rendered leads/_form.html.erb (1.7ms)
+  Rendered leads/index.html.erb within layouts/site (2.4ms)
+Completed 200 OK in 51ms (Views: 49.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/landing-page.css?body=1" for 127.0.0.1 at 2015-02-17 09:42:33 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-17 09:42:33 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-17 09:42:33 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-17 09:42:33 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-17 09:42:33 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-17 09:42:33 -0200
