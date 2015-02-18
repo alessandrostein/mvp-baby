@@ -10,7 +10,7 @@ class LeadsController < ApplicationController
     @lead = Lead.new(lead_params)
     @lead.save
 
-    render :index
+    redirect_to new_user_registration_path
   end
 
   private
