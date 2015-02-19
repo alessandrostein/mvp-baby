@@ -1,0 +1,30 @@
+<div class="auth-default">
+
+  <div class="title">
+    <h2>Que bom ter você aqui novamente :)</h2>
+  </div>
+
+  <div class="subtitle">
+    <h3>Por favor, informe seus dados de acesso</h3>
+  </div>
+
+  <hr/>
+
+  <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
+
+    <label>Informe seu email</label>
+    <div class="field">
+      <%= f.email_field :email, autofocus: true %>
+    </div>
+
+    <label>Informe sua senha, lembre-se, ela contém no mínimo 7 caracteres</label>
+    <div class="field">
+      <%= f.password_field :password, autocomplete: "off" %>
+    </div>
+
+    <div class="actions">
+      <%= f.submit "Acessar" %>
+    </div>
+  <% end %>
+
+</div>

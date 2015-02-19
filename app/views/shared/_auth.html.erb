@@ -1,0 +1,21 @@
+<div class="auth">
+  <% if user_signed_in? %>
+    <div class="auth-edit">
+      <%= link_to('Editar conta', edit_user_registration_path) %>
+    </div>
+  <% else %>
+    <div class="auth-register">
+      <%= link_to('Cadastre-se', new_user_registration_path, :layout => 'panel')  %>
+    </div>
+  <% end %>
+
+  <% if user_signed_in? %>
+    <div class="auth-logout">
+      <%= link_to('Sair', destroy_user_session_path, :method => :delete) %>
+    </div>
+  <% else %>
+    <div class="auth-login">
+      <%= link_to('Entrar', new_user_session_path)  %>
+    </div>
+  <% end %>
+</div>

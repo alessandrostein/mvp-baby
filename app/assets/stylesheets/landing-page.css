@@ -1,20 +1,4 @@
-
-.landing {
-  width: 1301px;
-  height: 659px;
-  background: url("/assets/baby-in-the-bath-5f787ac68736db2bc5db985bb38ff91f.jpg") fixed no-repeat;
-  background-position: center;
-  position: absolute;
-  margin: 0;
-  padding: 0;
-  -webkit-background-size: cover;
-  -o-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-}
-
 .land-lead {
-  position: relative;
   margin-top: 450px;
   margin-left: 450px;
   display: inline;
@@ -59,10 +43,6 @@
 }
 
 .btn-lead:hover {
-  color: #999;
-  font-weight: 700;
-  background-color: #fff;
-  border-color: #fff;
-  padding-left: 20px;
-  padding-right: 20px;
+  background-color: #3da7f2;
+  border-color: #3da7f2;
 }

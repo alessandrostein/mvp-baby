@@ -20,15 +20,39 @@
   padding: 0;
  }
 
-.header {
-  height: 150px;
+.body {
+  width: 1301px;
+  height: 659px;
+  position: absolute;
+  margin: 0;
+  padding: 0;
 }
 
-.footer {
-  height: 100px;
+.background-img {
+  background: url("/assets/baby-in-the-bath-5f787ac68736db2bc5db985bb38ff91f.jpg") fixed no-repeat;
+  background-position: center;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+
+.background-header {
+  background-color: #fff;
+}
+
+.background-context {
+  background-color: #F6F6F6;
+}
+
+.header {
+  width: 100%;
+  height: 10%;
+  position: relative;
 }
 
 .content {
-  margin-left: 200px;
-  margin-right: 200px;
+  width: 100%;
+  height: 90%;
+  position: absolute;
 }
