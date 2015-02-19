@@ -10,6 +10,7 @@ class RegistrationsController < Devise::RegistrationsController
 
   # POST /resource
   def create
+    byebug
     build_resource(sign_up_params)
     if resource.save
       yield resource if block_given?
@@ -18,7 +19,7 @@ class RegistrationsController < Devise::RegistrationsController
           respond_with resource, :location => after_sign_up_path_for(resource)
         else
           set_flash_message :notice, :"signed_up_but_#{resource.inactive_message}" if is_flashing_format?
-          expire_data_after_sign_in!
+          expire_data_afterp_sign_in!
           respond_with resource, :location => after_inactive_sign_up_path_for(resource)
       end
     else
