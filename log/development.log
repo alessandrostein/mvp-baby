@@ -24864,3 +24864,1471 @@ Processing by RegistrationsController#edit as HTML
   [1m[36mUser Load (1.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 3  ORDER BY "users"."id" ASC LIMIT 1[0m
   Rendered users/registrations/edit.html.erb within layouts/panel (1.9ms)
 Completed 200 OK in 44ms (Views: 41.6ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-20 00:49:31 -0200
+  [1m[36mActiveRecord::SchemaMigration Load (27.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by LeadsController#index as HTML
+  Rendered shared/_auth.html.erb (4.4ms)
+  Rendered leads/_form.html.erb (99.5ms)
+  Rendered leads/index.html.erb within layouts/site (149.3ms)
+Completed 200 OK in 585ms (Views: 494.2ms | ActiveRecord: 66.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-20 00:49:32 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-20 00:49:32 -0200
+
+
+Started GET "/assets/auth.css?body=1" for 127.0.0.1 at 2015-02-20 00:49:32 -0200
+
+
+Started GET "/assets/registrations.js?body=1" for 127.0.0.1 at 2015-02-20 00:49:32 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-20 00:49:32 -0200
+
+
+Started GET "/assets/landing-page.css?body=1" for 127.0.0.1 at 2015-02-20 00:49:32 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-20 00:49:32 -0200
+
+
+Started GET "/assets/registrations.css?body=1" for 127.0.0.1 at 2015-02-20 00:49:32 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-20 00:49:32 -0200
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2015-02-20 00:50:38 -0200
+Processing by RegistrationsController#new as HTML
+  Rendered users/registrations/new.html.erb within layouts/panel (26.6ms)
+Completed 200 OK in 91ms (Views: 82.5ms | ActiveRecord: 5.2ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-02-20 00:50:58 -0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered users/sessions/new.html.erb within layouts/panel (1.5ms)
+Completed 200 OK in 141ms (Views: 59.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2015-02-20 00:51:01 -0200
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gHSf+ufaOP9TT9Au1b9v3u0mB4WOoNcF4IMsTSjIVqQ=", "user"=>{"email"=>"alessandro@alessandrostein.com", "password"=>"[FILTERED]"}, "commit"=>"Acessar"}
+  [1m[35mUser Load (117.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."email" = 'alessandro@alessandrostein.com'  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  UPDATE "users" SET "current_sign_in_at" = $1, "last_sign_in_at" = $2, "sign_in_count" = $3, "updated_at" = $4 WHERE "users"."id" = 3  [["current_sign_in_at", "2015-02-20 02:51:01.700581"], ["last_sign_in_at", "2015-02-19 02:50:11.658006"], ["sign_in_count", 6], ["updated_at", "2015-02-20 02:51:01.701938"]]
+  [1m[36m (47.0ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 418ms (ActiveRecord: 165.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-20 00:51:01 -0200
+Processing by LeadsController#index as HTML
+  [1m[35mUser Load (1.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 3  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered shared/_auth.html.erb (2.7ms)
+  Rendered leads/_form.html.erb (1.6ms)
+  Rendered leads/index.html.erb within layouts/site (5.7ms)
+Completed 200 OK in 51ms (Views: 48.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/auth.css?body=1" for 127.0.0.1 at 2015-02-20 00:51:01 -0200
+
+
+Started GET "/assets/registrations.css?body=1" for 127.0.0.1 at 2015-02-20 00:51:01 -0200
+
+
+Started GET "/assets/landing-page.css?body=1" for 127.0.0.1 at 2015-02-20 00:51:01 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-20 00:51:02 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-20 00:51:02 -0200
+
+
+Started GET "/assets/registrations.js?body=1" for 127.0.0.1 at 2015-02-20 00:51:02 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-20 00:51:02 -0200
+
+
+Started GET "/users/edit" for 127.0.0.1 at 2015-02-20 00:51:13 -0200
+Processing by RegistrationsController#edit as HTML
+  [1m[36mUser Load (1.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 3  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered users/registrations/edit.html.erb within layouts/panel (4.8ms)
+Completed 200 OK in 86ms (Views: 81.6ms | ActiveRecord: 1.2ms)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2015-02-20 00:51:38 -0200
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"GgRNo7+vIF1XFv+keS6rqO3j82jxya9dg2WLOAgUK0E="}
+  [1m[35mUser Load (0.6ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 3  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.4ms)[0m  COMMIT
+Redirected to http://localhost:3000/
+Completed 302 Found in 37ms (ActiveRecord: 1.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-20 00:51:38 -0200
+Processing by LeadsController#index as HTML
+  Rendered shared/_auth.html.erb (0.6ms)
+  Rendered leads/_form.html.erb (1.2ms)
+  Rendered leads/index.html.erb within layouts/site (2.9ms)
+Completed 200 OK in 54ms (Views: 53.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/auth.css?body=1" for 127.0.0.1 at 2015-02-20 00:51:38 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-20 00:51:38 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-20 00:51:38 -0200
+
+
+Started GET "/assets/landing-page.css?body=1" for 127.0.0.1 at 2015-02-20 00:51:38 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-20 00:51:38 -0200
+
+
+Started GET "/assets/registrations.js?body=1" for 127.0.0.1 at 2015-02-20 00:51:38 -0200
+
+
+Started GET "/assets/registrations.css?body=1" for 127.0.0.1 at 2015-02-20 00:51:38 -0200
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-20 00:54:12 -0200
+Processing by LeadsController#index as HTML
+  Rendered shared/_auth.html.erb (0.4ms)
+  Rendered leads/_form.html.erb (0.9ms)
+  Rendered leads/index.html.erb within layouts/site (2.1ms)
+Completed 200 OK in 68ms (Views: 67.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/auth.css?body=1" for 127.0.0.1 at 2015-02-20 00:54:12 -0200
+
+
+Started GET "/assets/registrations.css?body=1" for 127.0.0.1 at 2015-02-20 00:54:12 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-20 00:54:12 -0200
+
+
+Started GET "/assets/landing-page.css?body=1" for 127.0.0.1 at 2015-02-20 00:54:12 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-20 00:54:12 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-20 00:54:12 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-20 00:54:12 -0200
+
+
+Started GET "/assets/registrations.js?body=1" for 127.0.0.1 at 2015-02-20 00:54:12 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-20 00:54:12 -0200
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2015-02-20 00:54:13 -0200
+Processing by RegistrationsController#new as HTML
+  Rendered users/registrations/new.html.erb within layouts/panel (1.4ms)
+Completed 200 OK in 44ms (Views: 42.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-20 00:54:16 -0200
+Processing by LeadsController#index as HTML
+  Rendered shared/_auth.html.erb (1.1ms)
+  Rendered leads/_form.html.erb (1.9ms)
+  Rendered leads/index.html.erb within layouts/site (4.8ms)
+Completed 200 OK in 54ms (Views: 53.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-02-20 00:54:17 -0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered users/sessions/new.html.erb within layouts/panel (1.2ms)
+Completed 200 OK in 51ms (Views: 49.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-20 00:54:18 -0200
+Processing by LeadsController#index as HTML
+  Rendered shared/_auth.html.erb (0.8ms)
+  Rendered leads/_form.html.erb (1.2ms)
+  Rendered leads/index.html.erb within layouts/site (3.5ms)
+Completed 200 OK in 65ms (Views: 64.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-20 00:54:23 -0200
+Processing by LeadsController#index as HTML
+  Rendered shared/_auth.html.erb (0.6ms)
+  Rendered leads/_form.html.erb (1.0ms)
+  Rendered leads/index.html.erb within layouts/site (2.6ms)
+Completed 200 OK in 112ms (Views: 111.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/auth.css?body=1" for 127.0.0.1 at 2015-02-20 00:54:23 -0200
+
+
+Started GET "/assets/landing-page.css?body=1" for 127.0.0.1 at 2015-02-20 00:54:23 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-20 00:54:23 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-20 00:54:23 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-20 00:54:23 -0200
+
+
+Started GET "/assets/registrations.css?body=1" for 127.0.0.1 at 2015-02-20 00:54:23 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-20 00:54:23 -0200
+
+
+Started GET "/assets/registrations.js?body=1" for 127.0.0.1 at 2015-02-20 00:54:23 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-20 00:54:23 -0200
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2015-02-20 00:54:25 -0200
+Processing by RegistrationsController#new as HTML
+  Rendered users/registrations/new.html.erb within layouts/panel (1.3ms)
+Completed 200 OK in 47ms (Views: 45.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2015-02-20 00:56:35 -0200
+Processing by RegistrationsController#new as HTML
+  Rendered users/registrations/new.html.erb within layouts/panel (0.9ms)
+Completed 200 OK in 50ms (Views: 48.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/landing-page.css?body=1" for 127.0.0.1 at 2015-02-20 00:56:35 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-20 00:56:35 -0200
+
+
+Started GET "/assets/registrations.css?body=1" for 127.0.0.1 at 2015-02-20 00:56:35 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-20 00:56:35 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-20 00:56:35 -0200
+
+
+Started GET "/assets/auth.css?body=1" for 127.0.0.1 at 2015-02-20 00:56:35 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-20 00:56:35 -0200
+
+
+Started GET "/assets/registrations.js?body=1" for 127.0.0.1 at 2015-02-20 00:56:35 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-20 00:56:35 -0200
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2015-02-20 00:57:25 -0200
+Processing by RegistrationsController#new as HTML
+  Rendered users/registrations/new.html.erb within layouts/panel (1.1ms)
+Completed 200 OK in 41ms (Views: 39.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/landing-page.css?body=1" for 127.0.0.1 at 2015-02-20 00:57:25 -0200
+
+
+Started GET "/assets/registrations.css?body=1" for 127.0.0.1 at 2015-02-20 00:57:25 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-20 00:57:25 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-20 00:57:25 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-20 00:57:25 -0200
+
+
+Started GET "/assets/auth.css?body=1" for 127.0.0.1 at 2015-02-20 00:57:25 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-20 00:57:25 -0200
+
+
+Started GET "/assets/registrations.js?body=1" for 127.0.0.1 at 2015-02-20 00:57:25 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-20 00:57:25 -0200
+
+
+Started GET "/panel/wedding?wedding_created=true" for 127.0.0.1 at 2015-02-20 00:58:10 -0200
+
+ActionController::RoutingError (No route matches [GET] "/panel/wedding"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/alessandrostein/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/alessandrostein/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/alessandrostein/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.0ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (17.0ms)
+  Rendered /home/alessandrostein/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (283.0ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2015-02-20 00:59:02 -0200
+Processing by RegistrationsController#new as HTML
+  Rendered users/registrations/new.html.erb within layouts/panel (1.1ms)
+Completed 200 OK in 116ms (Views: 114.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/auth.css?body=1" for 127.0.0.1 at 2015-02-20 00:59:02 -0200
+
+
+Started GET "/assets/landing-page.css?body=1" for 127.0.0.1 at 2015-02-20 00:59:02 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-20 00:59:02 -0200
+
+
+Started GET "/assets/registrations.css?body=1" for 127.0.0.1 at 2015-02-20 00:59:02 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-20 00:59:02 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-20 00:59:02 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-20 00:59:02 -0200
+
+
+Started GET "/assets/registrations.js?body=1" for 127.0.0.1 at 2015-02-20 00:59:02 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-20 00:59:02 -0200
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2015-02-20 00:59:31 -0200
+Processing by RegistrationsController#new as HTML
+  Rendered users/registrations/new.html.erb within layouts/panel (1.1ms)
+Completed 200 OK in 59ms (Views: 57.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/auth.css?body=1" for 127.0.0.1 at 2015-02-20 00:59:32 -0200
+
+
+Started GET "/assets/landing-page.css?body=1" for 127.0.0.1 at 2015-02-20 00:59:32 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-20 00:59:32 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-20 00:59:32 -0200
+
+
+Started GET "/assets/registrations.css?body=1" for 127.0.0.1 at 2015-02-20 00:59:32 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-20 00:59:32 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-20 00:59:32 -0200
+
+
+Started GET "/assets/registrations.js?body=1" for 127.0.0.1 at 2015-02-20 00:59:32 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-20 00:59:32 -0200
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2015-02-20 01:00:17 -0200
+Processing by RegistrationsController#new as HTML
+  Rendered users/registrations/new.html.erb within layouts/panel (1.4ms)
+Completed 200 OK in 116ms (Views: 115.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/landing-page.css?body=1" for 127.0.0.1 at 2015-02-20 01:00:17 -0200
+
+
+Started GET "/assets/registrations.css?body=1" for 127.0.0.1 at 2015-02-20 01:00:17 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-20 01:00:17 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-20 01:00:17 -0200
+
+
+Started GET "/assets/auth.css?body=1" for 127.0.0.1 at 2015-02-20 01:00:17 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-20 01:00:17 -0200
+
+
+Started GET "/assets/registrations.js?body=1" for 127.0.0.1 at 2015-02-20 01:00:17 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-20 01:00:17 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-20 01:00:17 -0200
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2015-02-20 01:00:40 -0200
+Processing by RegistrationsController#new as HTML
+  Rendered users/registrations/new.html.erb within layouts/panel (1.1ms)
+Completed 200 OK in 118ms (Views: 116.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/landing-page.css?body=1" for 127.0.0.1 at 2015-02-20 01:00:40 -0200
+
+
+Started GET "/assets/auth.css?body=1" for 127.0.0.1 at 2015-02-20 01:00:40 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-20 01:00:40 -0200
+
+
+Started GET "/assets/registrations.css?body=1" for 127.0.0.1 at 2015-02-20 01:00:40 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-20 01:00:40 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-20 01:00:40 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-20 01:00:40 -0200
+
+
+Started GET "/assets/registrations.js?body=1" for 127.0.0.1 at 2015-02-20 01:00:40 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-20 01:00:40 -0200
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2015-02-20 01:00:52 -0200
+Processing by RegistrationsController#new as HTML
+  Rendered users/registrations/new.html.erb within layouts/panel (1.1ms)
+Completed 200 OK in 48ms (Views: 46.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/auth.css?body=1" for 127.0.0.1 at 2015-02-20 01:00:52 -0200
+
+
+Started GET "/assets/landing-page.css?body=1" for 127.0.0.1 at 2015-02-20 01:00:52 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-20 01:00:52 -0200
+
+
+Started GET "/assets/registrations.css?body=1" for 127.0.0.1 at 2015-02-20 01:00:52 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-20 01:00:52 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-20 01:00:52 -0200
+
+
+Started GET "/assets/registrations.js?body=1" for 127.0.0.1 at 2015-02-20 01:00:52 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-20 01:00:52 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-20 01:00:52 -0200
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2015-02-20 01:00:53 -0200
+Processing by RegistrationsController#new as HTML
+  Rendered users/registrations/new.html.erb within layouts/panel (0.8ms)
+Completed 200 OK in 43ms (Views: 42.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/auth.css?body=1" for 127.0.0.1 at 2015-02-20 01:00:53 -0200
+
+
+Started GET "/assets/landing-page.css?body=1" for 127.0.0.1 at 2015-02-20 01:00:53 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-20 01:00:53 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-20 01:00:53 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-20 01:00:53 -0200
+
+
+Started GET "/assets/registrations.css?body=1" for 127.0.0.1 at 2015-02-20 01:00:53 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-20 01:00:53 -0200
+
+
+Started GET "/assets/registrations.js?body=1" for 127.0.0.1 at 2015-02-20 01:00:53 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-20 01:00:53 -0200
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2015-02-20 01:00:54 -0200
+Processing by RegistrationsController#new as HTML
+  Rendered users/registrations/new.html.erb within layouts/panel (36.5ms)
+Completed 200 OK in 90ms (Views: 88.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/auth.css?body=1" for 127.0.0.1 at 2015-02-20 01:00:54 -0200
+
+
+Started GET "/assets/registrations.css?body=1" for 127.0.0.1 at 2015-02-20 01:00:54 -0200
+
+
+Started GET "/assets/landing-page.css?body=1" for 127.0.0.1 at 2015-02-20 01:00:54 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-20 01:00:54 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-20 01:00:54 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-20 01:00:54 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-20 01:00:54 -0200
+
+
+Started GET "/assets/registrations.js?body=1" for 127.0.0.1 at 2015-02-20 01:00:54 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-20 01:00:54 -0200
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2015-02-20 01:00:58 -0200
+Processing by RegistrationsController#new as HTML
+  Rendered users/registrations/new.html.erb within layouts/panel (1.3ms)
+Completed 200 OK in 110ms (Views: 107.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/auth.css?body=1" for 127.0.0.1 at 2015-02-20 01:00:58 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-20 01:00:58 -0200
+
+
+Started GET "/assets/registrations.css?body=1" for 127.0.0.1 at 2015-02-20 01:00:58 -0200
+
+
+Started GET "/assets/landing-page.css?body=1" for 127.0.0.1 at 2015-02-20 01:00:58 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-20 01:00:58 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-20 01:00:58 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-20 01:00:58 -0200
+
+
+Started GET "/assets/registrations.js?body=1" for 127.0.0.1 at 2015-02-20 01:00:58 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-20 01:00:58 -0200
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2015-02-20 01:01:03 -0200
+Processing by RegistrationsController#new as HTML
+  Rendered users/registrations/new.html.erb within layouts/panel (1.2ms)
+Completed 200 OK in 120ms (Views: 118.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/auth.css?body=1" for 127.0.0.1 at 2015-02-20 01:01:03 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-20 01:01:03 -0200
+
+
+Started GET "/assets/registrations.css?body=1" for 127.0.0.1 at 2015-02-20 01:01:03 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-20 01:01:03 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-20 01:01:03 -0200
+
+
+Started GET "/assets/landing-page.css?body=1" for 127.0.0.1 at 2015-02-20 01:01:03 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-20 01:01:03 -0200
+
+
+Started GET "/assets/registrations.js?body=1" for 127.0.0.1 at 2015-02-20 01:01:03 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-20 01:01:03 -0200
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2015-02-20 01:01:08 -0200
+Processing by RegistrationsController#new as HTML
+  Rendered users/registrations/new.html.erb within layouts/panel (0.9ms)
+Completed 200 OK in 102ms (Views: 100.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/auth.css?body=1" for 127.0.0.1 at 2015-02-20 01:01:08 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-20 01:01:08 -0200
+
+
+Started GET "/assets/registrations.css?body=1" for 127.0.0.1 at 2015-02-20 01:01:08 -0200
+
+
+Started GET "/assets/landing-page.css?body=1" for 127.0.0.1 at 2015-02-20 01:01:08 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-20 01:01:08 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-20 01:01:08 -0200
+
+
+Started GET "/assets/registrations.js?body=1" for 127.0.0.1 at 2015-02-20 01:01:08 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-20 01:01:08 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-20 01:01:08 -0200
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2015-02-20 01:01:14 -0200
+Processing by RegistrationsController#new as HTML
+  Rendered users/registrations/new.html.erb within layouts/panel (1.4ms)
+Completed 200 OK in 117ms (Views: 116.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/auth.css?body=1" for 127.0.0.1 at 2015-02-20 01:01:14 -0200
+
+
+Started GET "/assets/landing-page.css?body=1" for 127.0.0.1 at 2015-02-20 01:01:14 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-20 01:01:14 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-20 01:01:14 -0200
+
+
+Started GET "/assets/registrations.css?body=1" for 127.0.0.1 at 2015-02-20 01:01:14 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-20 01:01:14 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-20 01:01:14 -0200
+
+
+Started GET "/assets/registrations.js?body=1" for 127.0.0.1 at 2015-02-20 01:01:14 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-20 01:01:14 -0200
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2015-02-20 01:01:24 -0200
+Processing by RegistrationsController#new as HTML
+  Rendered users/registrations/new.html.erb within layouts/panel (1.1ms)
+Completed 200 OK in 59ms (Views: 54.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/landing-page.css?body=1" for 127.0.0.1 at 2015-02-20 01:01:24 -0200
+
+
+Started GET "/assets/registrations.css?body=1" for 127.0.0.1 at 2015-02-20 01:01:24 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-20 01:01:24 -0200
+
+
+Started GET "/assets/auth.css?body=1" for 127.0.0.1 at 2015-02-20 01:01:24 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-20 01:01:24 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-20 01:01:24 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-20 01:01:24 -0200
+
+
+Started GET "/assets/registrations.js?body=1" for 127.0.0.1 at 2015-02-20 01:01:24 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-20 01:01:24 -0200
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2015-02-20 01:01:53 -0200
+Processing by RegistrationsController#new as HTML
+  Rendered users/registrations/new.html.erb within layouts/panel (1.8ms)
+Completed 200 OK in 107ms (Views: 105.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/auth.css?body=1" for 127.0.0.1 at 2015-02-20 01:01:53 -0200
+
+
+Started GET "/assets/landing-page.css?body=1" for 127.0.0.1 at 2015-02-20 01:01:53 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-20 01:01:53 -0200
+
+
+Started GET "/assets/registrations.css?body=1" for 127.0.0.1 at 2015-02-20 01:01:53 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-20 01:01:53 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-20 01:01:53 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-20 01:01:53 -0200
+
+
+Started GET "/assets/registrations.js?body=1" for 127.0.0.1 at 2015-02-20 01:01:53 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-20 01:01:53 -0200
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2015-02-20 01:01:54 -0200
+Processing by RegistrationsController#new as HTML
+  Rendered users/registrations/new.html.erb within layouts/panel (1.1ms)
+Completed 200 OK in 41ms (Views: 40.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/auth.css?body=1" for 127.0.0.1 at 2015-02-20 01:01:55 -0200
+
+
+Started GET "/assets/registrations.css?body=1" for 127.0.0.1 at 2015-02-20 01:01:55 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-20 01:01:55 -0200
+
+
+Started GET "/assets/landing-page.css?body=1" for 127.0.0.1 at 2015-02-20 01:01:55 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-20 01:01:55 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-20 01:01:55 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-20 01:01:55 -0200
+
+
+Started GET "/assets/registrations.js?body=1" for 127.0.0.1 at 2015-02-20 01:01:55 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-20 01:01:55 -0200
+
+
+Started GET "/assets/auth.css?body=1" for 127.0.0.1 at 2015-02-20 01:01:58 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-20 01:01:58 -0200
+
+
+Started GET "/assets/landing-page.css?body=1" for 127.0.0.1 at 2015-02-20 01:01:58 -0200
+
+
+Started GET "/assets/registrations.css?body=1" for 127.0.0.1 at 2015-02-20 01:01:58 -0200
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2015-02-20 01:02:24 -0200
+Processing by RegistrationsController#new as HTML
+  Rendered users/registrations/new.html.erb within layouts/panel (1.0ms)
+Completed 200 OK in 108ms (Views: 106.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/auth.css?body=1" for 127.0.0.1 at 2015-02-20 01:02:24 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-20 01:02:24 -0200
+
+
+Started GET "/assets/landing-page.css?body=1" for 127.0.0.1 at 2015-02-20 01:02:24 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-20 01:02:24 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-20 01:02:24 -0200
+
+
+Started GET "/assets/registrations.css?body=1" for 127.0.0.1 at 2015-02-20 01:02:24 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-20 01:02:24 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-20 01:02:24 -0200
+
+
+Started GET "/assets/registrations.js?body=1" for 127.0.0.1 at 2015-02-20 01:02:24 -0200
+
+
+Started GET "/assets/auth.css?body=1" for 127.0.0.1 at 2015-02-20 01:02:29 -0200
+
+
+Started GET "/assets/landing-page.css?body=1" for 127.0.0.1 at 2015-02-20 01:02:29 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-20 01:02:29 -0200
+
+
+Started GET "/assets/registrations.css?body=1" for 127.0.0.1 at 2015-02-20 01:02:29 -0200
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2015-02-20 01:03:00 -0200
+Processing by RegistrationsController#new as HTML
+  Rendered users/registrations/new.html.erb within layouts/panel (1.0ms)
+Completed 200 OK in 113ms (Views: 111.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/auth.css?body=1" for 127.0.0.1 at 2015-02-20 01:03:00 -0200
+
+
+Started GET "/assets/landing-page.css?body=1" for 127.0.0.1 at 2015-02-20 01:03:00 -0200
+
+
+Started GET "/assets/registrations.css?body=1" for 127.0.0.1 at 2015-02-20 01:03:00 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-20 01:03:00 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-20 01:03:00 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-20 01:03:00 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-20 01:03:00 -0200
+
+
+Started GET "/assets/registrations.js?body=1" for 127.0.0.1 at 2015-02-20 01:03:00 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-20 01:03:00 -0200
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2015-02-20 01:03:16 -0200
+Processing by RegistrationsController#new as HTML
+  Rendered users/registrations/new.html.erb within layouts/panel (0.9ms)
+Completed 200 OK in 99ms (Views: 97.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/auth.css?body=1" for 127.0.0.1 at 2015-02-20 01:03:16 -0200
+
+
+Started GET "/assets/landing-page.css?body=1" for 127.0.0.1 at 2015-02-20 01:03:16 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-20 01:03:16 -0200
+
+
+Started GET "/assets/registrations.css?body=1" for 127.0.0.1 at 2015-02-20 01:03:16 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-20 01:03:16 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-20 01:03:16 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-20 01:03:16 -0200
+
+
+Started GET "/assets/registrations.js?body=1" for 127.0.0.1 at 2015-02-20 01:03:16 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-20 01:03:16 -0200
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2015-02-20 01:03:49 -0200
+Processing by RegistrationsController#new as HTML
+  Rendered users/registrations/new.html.erb within layouts/panel (1.4ms)
+Completed 200 OK in 111ms (Views: 109.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/landing-page.css?body=1" for 127.0.0.1 at 2015-02-20 01:03:49 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-20 01:03:49 -0200
+
+
+Started GET "/assets/auth.css?body=1" for 127.0.0.1 at 2015-02-20 01:03:49 -0200
+
+
+Started GET "/assets/registrations.css?body=1" for 127.0.0.1 at 2015-02-20 01:03:49 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-20 01:03:49 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-20 01:03:49 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-20 01:03:49 -0200
+
+
+Started GET "/assets/registrations.js?body=1" for 127.0.0.1 at 2015-02-20 01:03:49 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-20 01:03:49 -0200
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2015-02-20 01:04:09 -0200
+Processing by RegistrationsController#new as HTML
+  Rendered users/registrations/new.html.erb within layouts/panel (0.9ms)
+Completed 200 OK in 111ms (Views: 109.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/auth.css?body=1" for 127.0.0.1 at 2015-02-20 01:04:09 -0200
+
+
+Started GET "/assets/registrations.css?body=1" for 127.0.0.1 at 2015-02-20 01:04:09 -0200
+
+
+Started GET "/assets/landing-page.css?body=1" for 127.0.0.1 at 2015-02-20 01:04:09 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-20 01:04:09 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-20 01:04:09 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-20 01:04:09 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-20 01:04:09 -0200
+
+
+Started GET "/assets/registrations.js?body=1" for 127.0.0.1 at 2015-02-20 01:04:09 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-20 01:04:09 -0200
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2015-02-20 01:04:14 -0200
+Processing by RegistrationsController#new as HTML
+  Rendered users/registrations/new.html.erb within layouts/panel (1.4ms)
+Completed 200 OK in 101ms (Views: 99.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/auth.css?body=1" for 127.0.0.1 at 2015-02-20 01:04:15 -0200
+
+
+Started GET "/assets/landing-page.css?body=1" for 127.0.0.1 at 2015-02-20 01:04:15 -0200
+
+
+Started GET "/assets/registrations.css?body=1" for 127.0.0.1 at 2015-02-20 01:04:15 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-20 01:04:15 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-20 01:04:15 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-20 01:04:15 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-20 01:04:15 -0200
+
+
+Started GET "/assets/registrations.js?body=1" for 127.0.0.1 at 2015-02-20 01:04:15 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-20 01:04:15 -0200
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2015-02-20 01:04:47 -0200
+Processing by RegistrationsController#new as HTML
+  Rendered users/registrations/new.html.erb within layouts/panel (1.4ms)
+Completed 200 OK in 122ms (Views: 120.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/auth.css?body=1" for 127.0.0.1 at 2015-02-20 01:04:47 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-20 01:04:47 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-20 01:04:47 -0200
+
+
+Started GET "/assets/landing-page.css?body=1" for 127.0.0.1 at 2015-02-20 01:04:47 -0200
+
+
+Started GET "/assets/registrations.css?body=1" for 127.0.0.1 at 2015-02-20 01:04:47 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-20 01:04:47 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-20 01:04:47 -0200
+
+
+Started GET "/assets/registrations.js?body=1" for 127.0.0.1 at 2015-02-20 01:04:47 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-20 01:04:47 -0200
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2015-02-20 01:04:54 -0200
+Processing by RegistrationsController#new as HTML
+  Rendered users/registrations/new.html.erb within layouts/panel (1.0ms)
+Completed 200 OK in 108ms (Views: 106.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/auth.css?body=1" for 127.0.0.1 at 2015-02-20 01:04:55 -0200
+
+
+Started GET "/assets/landing-page.css?body=1" for 127.0.0.1 at 2015-02-20 01:04:55 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-20 01:04:55 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-20 01:04:55 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-20 01:04:55 -0200
+
+
+Started GET "/assets/registrations.css?body=1" for 127.0.0.1 at 2015-02-20 01:04:55 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-20 01:04:55 -0200
+
+
+Started GET "/assets/registrations.js?body=1" for 127.0.0.1 at 2015-02-20 01:04:55 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-20 01:04:55 -0200
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2015-02-20 01:05:24 -0200
+Processing by RegistrationsController#new as HTML
+  Rendered users/registrations/new.html.erb within layouts/panel (0.8ms)
+Completed 200 OK in 124ms (Views: 122.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/auth.css?body=1" for 127.0.0.1 at 2015-02-20 01:05:24 -0200
+
+
+Started GET "/assets/registrations.css?body=1" for 127.0.0.1 at 2015-02-20 01:05:24 -0200
+
+
+Started GET "/assets/landing-page.css?body=1" for 127.0.0.1 at 2015-02-20 01:05:24 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-20 01:05:24 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-20 01:05:24 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-20 01:05:24 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-20 01:05:24 -0200
+
+
+Started GET "/assets/registrations.js?body=1" for 127.0.0.1 at 2015-02-20 01:05:24 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-20 01:05:24 -0200
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2015-02-20 01:05:34 -0200
+Processing by RegistrationsController#new as HTML
+  Rendered users/registrations/new.html.erb within layouts/panel (2.1ms)
+Completed 200 OK in 50ms (Views: 48.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/landing-page.css?body=1" for 127.0.0.1 at 2015-02-20 01:05:34 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-20 01:05:34 -0200
+
+
+Started GET "/assets/auth.css?body=1" for 127.0.0.1 at 2015-02-20 01:05:34 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-20 01:05:34 -0200
+
+
+Started GET "/assets/registrations.css?body=1" for 127.0.0.1 at 2015-02-20 01:05:34 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-20 01:05:34 -0200
+
+
+Started GET "/assets/registrations.js?body=1" for 127.0.0.1 at 2015-02-20 01:05:34 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-20 01:05:35 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-20 01:05:35 -0200
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2015-02-20 01:05:36 -0200
+Processing by RegistrationsController#new as HTML
+  Rendered users/registrations/new.html.erb within layouts/panel (1.1ms)
+Completed 200 OK in 47ms (Views: 45.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/auth.css?body=1" for 127.0.0.1 at 2015-02-20 01:05:36 -0200
+
+
+Started GET "/assets/registrations.css?body=1" for 127.0.0.1 at 2015-02-20 01:05:36 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-20 01:05:36 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-20 01:05:36 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-20 01:05:36 -0200
+
+
+Started GET "/assets/landing-page.css?body=1" for 127.0.0.1 at 2015-02-20 01:05:36 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-20 01:05:36 -0200
+
+
+Started GET "/assets/registrations.js?body=1" for 127.0.0.1 at 2015-02-20 01:05:36 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-20 01:05:36 -0200
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2015-02-20 01:05:55 -0200
+Processing by RegistrationsController#new as HTML
+  Rendered users/registrations/new.html.erb within layouts/panel (1.8ms)
+Completed 200 OK in 110ms (Views: 108.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/auth.css?body=1" for 127.0.0.1 at 2015-02-20 01:05:55 -0200
+
+
+Started GET "/assets/landing-page.css?body=1" for 127.0.0.1 at 2015-02-20 01:05:55 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-20 01:05:55 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-20 01:05:55 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-20 01:05:55 -0200
+
+
+Started GET "/assets/registrations.css?body=1" for 127.0.0.1 at 2015-02-20 01:05:55 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-20 01:05:55 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-20 01:05:55 -0200
+
+
+Started GET "/assets/registrations.js?body=1" for 127.0.0.1 at 2015-02-20 01:05:55 -0200
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2015-02-20 01:06:07 -0200
+Processing by RegistrationsController#new as HTML
+  Rendered users/registrations/new.html.erb within layouts/panel (1.1ms)
+Completed 200 OK in 116ms (Views: 114.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/auth.css?body=1" for 127.0.0.1 at 2015-02-20 01:06:08 -0200
+
+
+Started GET "/assets/landing-page.css?body=1" for 127.0.0.1 at 2015-02-20 01:06:08 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-20 01:06:08 -0200
+
+
+Started GET "/assets/registrations.css?body=1" for 127.0.0.1 at 2015-02-20 01:06:08 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-20 01:06:08 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-20 01:06:08 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-20 01:06:08 -0200
+
+
+Started GET "/assets/registrations.js?body=1" for 127.0.0.1 at 2015-02-20 01:06:08 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-20 01:06:08 -0200
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2015-02-20 01:06:12 -0200
+Processing by RegistrationsController#new as HTML
+  Rendered users/registrations/new.html.erb within layouts/panel (1.1ms)
+Completed 200 OK in 109ms (Views: 107.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/auth.css?body=1" for 127.0.0.1 at 2015-02-20 01:06:12 -0200
+
+
+Started GET "/assets/registrations.css?body=1" for 127.0.0.1 at 2015-02-20 01:06:12 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-20 01:06:12 -0200
+
+
+Started GET "/assets/landing-page.css?body=1" for 127.0.0.1 at 2015-02-20 01:06:12 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-20 01:06:12 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-20 01:06:12 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-20 01:06:12 -0200
+
+
+Started GET "/assets/registrations.js?body=1" for 127.0.0.1 at 2015-02-20 01:06:12 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-20 01:06:12 -0200
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2015-02-20 01:07:48 -0200
+Processing by RegistrationsController#new as HTML
+  Rendered users/registrations/new.html.erb within layouts/panel (1.2ms)
+Completed 200 OK in 97ms (Views: 95.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/landing-page.css?body=1" for 127.0.0.1 at 2015-02-20 01:07:48 -0200
+
+
+Started GET "/assets/registrations.css?body=1" for 127.0.0.1 at 2015-02-20 01:07:48 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-20 01:07:48 -0200
+
+
+Started GET "/assets/auth.css?body=1" for 127.0.0.1 at 2015-02-20 01:07:48 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-20 01:07:48 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-20 01:07:48 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-20 01:07:48 -0200
+
+
+Started GET "/assets/registrations.js?body=1" for 127.0.0.1 at 2015-02-20 01:07:48 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-20 01:07:48 -0200
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-20 01:08:30 -0200
+Processing by LeadsController#index as HTML
+  Rendered shared/_auth.html.erb (1.0ms)
+  Rendered leads/_form.html.erb (1.6ms)
+  Rendered leads/index.html.erb within layouts/site (4.7ms)
+Completed 200 OK in 56ms (Views: 54.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-02-20 01:08:31 -0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered users/sessions/new.html.erb within layouts/panel (1.3ms)
+Completed 200 OK in 44ms (Views: 40.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-20 01:08:32 -0200
+Processing by LeadsController#index as HTML
+  Rendered shared/_auth.html.erb (1.0ms)
+  Rendered leads/_form.html.erb (2.3ms)
+  Rendered leads/index.html.erb within layouts/site (5.5ms)
+Completed 200 OK in 48ms (Views: 47.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-20 01:09:47 -0200
+Processing by LeadsController#index as HTML
+  Rendered shared/_auth.html.erb (0.8ms)
+  Rendered leads/_form.html.erb (2.5ms)
+  Rendered leads/index.html.erb within layouts/site (4.6ms)
+Completed 200 OK in 48ms (Views: 47.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/registrations.css?body=1" for 127.0.0.1 at 2015-02-20 01:09:48 -0200
+
+
+Started GET "/assets/landing-page.css?body=1" for 127.0.0.1 at 2015-02-20 01:09:48 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-20 01:09:48 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-20 01:09:48 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-20 01:09:48 -0200
+
+
+Started GET "/assets/auth.css?body=1" for 127.0.0.1 at 2015-02-20 01:09:48 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-20 01:09:48 -0200
+
+
+Started GET "/assets/registrations.js?body=1" for 127.0.0.1 at 2015-02-20 01:09:48 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-20 01:09:48 -0200
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-20 01:10:30 -0200
+Processing by LeadsController#index as HTML
+  Rendered shared/_auth.html.erb (0.7ms)
+  Rendered leads/_form.html.erb (0.9ms)
+  Rendered leads/index.html.erb within layouts/site (2.8ms)
+Completed 200 OK in 46ms (Views: 44.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/auth.css?body=1" for 127.0.0.1 at 2015-02-20 01:10:30 -0200
+
+
+Started GET "/assets/registrations.css?body=1" for 127.0.0.1 at 2015-02-20 01:10:30 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-20 01:10:30 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-20 01:10:30 -0200
+
+
+Started GET "/assets/landing-page.css?body=1" for 127.0.0.1 at 2015-02-20 01:10:30 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-20 01:10:30 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-20 01:10:30 -0200
+
+
+Started GET "/assets/registrations.js?body=1" for 127.0.0.1 at 2015-02-20 01:10:30 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-20 01:10:30 -0200
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2015-02-20 01:10:31 -0200
+Processing by RegistrationsController#new as HTML
+  Rendered users/registrations/new.html.erb within layouts/panel (1.3ms)
+Completed 200 OK in 42ms (Views: 41.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-20 01:10:36 -0200
+Processing by LeadsController#index as HTML
+  Rendered shared/_auth.html.erb (0.6ms)
+  Rendered leads/_form.html.erb (2.4ms)
+  Rendered leads/index.html.erb within layouts/site (4.6ms)
+Completed 200 OK in 56ms (Views: 54.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-02-20 01:10:36 -0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered users/sessions/new.html.erb within layouts/panel (1.2ms)
+Completed 200 OK in 43ms (Views: 40.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-20 01:10:38 -0200
+Processing by LeadsController#index as HTML
+  Rendered shared/_auth.html.erb (1.0ms)
+  Rendered leads/_form.html.erb (1.0ms)
+  Rendered leads/index.html.erb within layouts/site (3.8ms)
+Completed 200 OK in 46ms (Views: 43.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-02-20 01:10:39 -0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered users/sessions/new.html.erb within layouts/panel (1.1ms)
+Completed 200 OK in 43ms (Views: 41.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-20 01:10:40 -0200
+Processing by LeadsController#index as HTML
+  Rendered shared/_auth.html.erb (1.7ms)
+  Rendered leads/_form.html.erb (2.0ms)
+  Rendered leads/index.html.erb within layouts/site (6.6ms)
+Completed 200 OK in 55ms (Views: 53.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-02-20 01:10:40 -0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered users/sessions/new.html.erb within layouts/panel (1.1ms)
+Completed 200 OK in 44ms (Views: 42.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-20 01:10:47 -0200
+Processing by LeadsController#index as HTML
+  Rendered shared/_auth.html.erb (0.5ms)
+  Rendered leads/_form.html.erb (1.0ms)
+  Rendered leads/index.html.erb within layouts/site (2.8ms)
+Completed 200 OK in 41ms (Views: 39.9ms | ActiveRecord: 0.0ms)
