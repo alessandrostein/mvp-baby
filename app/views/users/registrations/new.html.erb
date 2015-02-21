@@ -10,14 +10,17 @@
   <hr/>
 
   <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
-    <%= devise_error_messages! %>
+
+    <div class="error">
+      <%= devise_error_messages! %>
+    </div>
 
     <label>Informe seu email</label>
     <div class="field">
       <%= f.email_field :email, autofocus: true %>
     </div>
 
-    <label>Informe sua senha, ela deve conter no mínimo 7 caracteres</label>
+    <label>Informe sua senha, ela deve conter no mínimo 8 caracteres</label>
     <div class="field">
       <%= f.password_field :password, autocomplete: "off" %>
     </div>
