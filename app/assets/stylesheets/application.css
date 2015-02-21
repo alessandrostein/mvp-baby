@@ -51,10 +51,14 @@
   position: relative;
 }
 
+.header .header-left {
+  float: left;
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
 .header .header-rigth {
   float: right;
-  margin-right: 50px;
-  margin-top: 30px;
 }
 
 .btn-blue a {
