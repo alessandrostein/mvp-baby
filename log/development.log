@@ -27947,3 +27947,32 @@ Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-22 11:01:55 
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-22 11:01:55 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-22 11:13:14 -0300
+Processing by LeadsController#index as HTML
+  Rendered shared/_auth.html.erb (0.6ms)
+  Rendered leads/_form.html.erb (1.0ms)
+  Rendered leads/index.html.erb within layouts/site (2.8ms)
+Completed 200 OK in 34ms (Views: 33.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/landing-page.css?body=1" for 127.0.0.1 at 2015-02-22 11:13:14 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-22 11:13:14 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-22 11:13:14 -0300
+
+
+Started GET "/assets/auth.css?body=1" for 127.0.0.1 at 2015-02-22 11:13:14 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-22 11:13:14 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-22 11:13:14 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-22 11:13:14 -0300

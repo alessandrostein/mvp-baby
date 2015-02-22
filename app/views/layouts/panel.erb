@@ -6,7 +6,7 @@
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 
-  <%= render 'shared/analytics' if Rails.env.production? %>
+  <%= render :partial => 'shared/analytics' if Rails.env.production? %>
 
 </head>
 <body>
