@@ -7,8 +7,10 @@ class LeadsController < ApplicationController
   end
 
   def create
-    @lead = Lead.new(lead_params)
-    @lead.save
+    unless params[:email].blank?
+      @lead = Lead.new(lead_params)
+      @lead.save
+    end
 
     redirect_to new_user_registration_path
   end
