@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>MvpBaby</title>
+  <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+
+  <%= render :partial => 'shared/analytics' if Rails.env.production? %>
+
+</head>
+<body>
+
+  <div class="body">
+
+    <div class="header background-header">
+      <div class="header-left btn-blue">
+        <% unless user_signed_in? %>
+          <%= link_to('Página Inicial', leads_path) %>
+        <% else %>
+          <%= link_to('Painel de controle', panel_index_path)  %>
+        <% end %>
+      </div>
+
+      <div class="header-rigth btn-blue">
+        <%= render 'shared/auth' %>
+      </div>
+    </div>
+
+    <div class="content background-context">
+      <%= yield %>
+    </div>
+
+  </div>
+
+</body>
+</html>

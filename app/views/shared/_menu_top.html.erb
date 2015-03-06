@@ -1,0 +1,25 @@
+<div class="content-left">
+  <input type="text" placeholder="O que você quer fazer? Exemplos: Criar uma nova página; Adicionar fotos;"/>
+</div>
+
+<div class="content-right">
+  <ul>
+    <li>
+      <%= link_to panel_index_path, { title: "Visitar site" } do %>
+        <%= evil_icon 'ei-link' %>
+      <% end %>
+    </li>
+
+    <li>
+      <%= link_to panel_index_path, { title: "Notificações" } do %>
+        <%= evil_icon 'ei-bell' %>
+      <% end %>
+    </li>
+
+    <li>
+      <%= link_to panel_index_path, { title: "Configurações" } do %>
+        <%= evil_icon 'ei-gear' %>
+      <% end %>
+    </li>
+  </ul>
+</div>

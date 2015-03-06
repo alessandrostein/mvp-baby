@@ -5,25 +5,22 @@
   <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
-
-  <%= render :partial => 'shared/analytics' if Rails.env.production? %>
-
+  <%= evil_icons_sprite %>
 </head>
 <body>
 
   <div class="body">
 
-    <div class="header background-header">
-      <div class="header-left btn-blue">
-        <%= link_to('Página Inicial', leads_path)  %>
-      </div>
-
-      <div class="header-rigth btn-blue">
-        <%= render 'shared/auth' %>
-      </div>
-    </div>
-
     <div class="content background-context">
+
+      <div class="menu-top">
+        <%= render 'shared/menu_top' %>
+      </div>
+
+      <div class="menu-left">
+        <%= render 'shared/menu_left' %>
+      </div>
+
       <%= yield %>
     </div>
 
