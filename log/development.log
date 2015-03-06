@@ -37744,3 +37744,919 @@ Started GET "/assets/form.css?body=1" for 127.0.0.1 at 2015-03-05 22:09:27 -0300
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-05 22:09:27 -0300
+
+
+Started GET "/panel" for 127.0.0.1 at 2015-03-06 01:37:46 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PanelController#index as HTML
+  [1m[35mUser Load (1.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 3  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered panel/index.html.erb within layouts/panel (1.2ms)
+  Rendered shared/_menu_top.html.erb (1.0ms)
+  Rendered shared/_menu_left.html.erb (1.7ms)
+Completed 200 OK in 219ms (Views: 189.6ms | ActiveRecord: 5.3ms)
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2015-03-06 01:37:46 -0300
+
+
+Started GET "/assets/evil-icons.css?body=1" for 127.0.0.1 at 2015-03-06 01:37:46 -0300
+
+
+Started GET "/assets/form.css?body=1" for 127.0.0.1 at 2015-03-06 01:37:46 -0300
+
+
+Started GET "/assets/menu.css?body=1" for 127.0.0.1 at 2015-03-06 01:37:46 -0300
+
+
+Started GET "/assets/landing-page.css?body=1" for 127.0.0.1 at 2015-03-06 01:37:46 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-06 01:37:46 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-06 01:37:46 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-06 01:37:46 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-06 01:37:46 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-06 01:37:46 -0300
+
+
+Started GET "/assets/fontawesome-webfont.woff2?v=4.3.0" for 127.0.0.1 at 2015-03-06 01:37:46 -0300
+
+
+Started GET "/panel" for 127.0.0.1 at 2015-03-06 01:38:15 -0300
+Processing by PanelController#index as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 3  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered panel/index.html.erb within layouts/panel (0.1ms)
+  Rendered shared/_menu_top.html.erb (0.5ms)
+  Rendered shared/_menu_left.html.erb (1.9ms)
+Completed 200 OK in 89ms (Views: 84.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/evil-icons.css?body=1" for 127.0.0.1 at 2015-03-06 01:38:15 -0300
+
+
+Started GET "/assets/landing-page.css?body=1" for 127.0.0.1 at 2015-03-06 01:38:15 -0300
+
+
+Started GET "/assets/form.css?body=1" for 127.0.0.1 at 2015-03-06 01:38:15 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-06 01:38:15 -0300
+
+
+Started GET "/assets/menu.css?body=1" for 127.0.0.1 at 2015-03-06 01:38:15 -0300
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2015-03-06 01:38:15 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-06 01:38:15 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-06 01:38:15 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-06 01:38:15 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-06 01:38:15 -0300
+
+
+Started GET "/panel" for 127.0.0.1 at 2015-03-06 01:38:37 -0300
+Processing by PanelController#index as HTML
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 3  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered panel/index.html.erb within layouts/panel (0.1ms)
+  Rendered shared/_menu_top.html.erb (0.4ms)
+  Rendered shared/_menu_left.html.erb (1.9ms)
+Completed 200 OK in 63ms (Views: 60.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/evil-icons.css?body=1" for 127.0.0.1 at 2015-03-06 01:38:37 -0300
+
+
+Started GET "/assets/form.css?body=1" for 127.0.0.1 at 2015-03-06 01:38:37 -0300
+
+
+Started GET "/assets/landing-page.css?body=1" for 127.0.0.1 at 2015-03-06 01:38:37 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-06 01:38:37 -0300
+
+
+Started GET "/assets/menu.css?body=1" for 127.0.0.1 at 2015-03-06 01:38:37 -0300
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2015-03-06 01:38:37 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-06 01:38:37 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-06 01:38:37 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-06 01:38:37 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-06 01:38:37 -0300
+
+
+Started GET "/panel" for 127.0.0.1 at 2015-03-06 01:39:46 -0300
+Processing by PanelController#index as HTML
+  [1m[36mUser Load (0.8ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 3  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered panel/index.html.erb within layouts/panel (0.0ms)
+  Rendered shared/_menu_top.html.erb (0.4ms)
+  Rendered shared/_menu_left.html.erb (1.8ms)
+Completed 200 OK in 74ms (Views: 71.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/evil-icons.css?body=1" for 127.0.0.1 at 2015-03-06 01:39:46 -0300
+
+
+Started GET "/assets/landing-page.css?body=1" for 127.0.0.1 at 2015-03-06 01:39:46 -0300
+
+
+Started GET "/assets/form.css?body=1" for 127.0.0.1 at 2015-03-06 01:39:46 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-06 01:39:46 -0300
+
+
+Started GET "/assets/menu.css?body=1" for 127.0.0.1 at 2015-03-06 01:39:46 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-06 01:39:46 -0300
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2015-03-06 01:39:46 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-06 01:39:46 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-06 01:39:46 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-06 01:39:46 -0300
+
+
+Started GET "/panel" for 127.0.0.1 at 2015-03-06 01:41:14 -0300
+Processing by PanelController#index as HTML
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 3  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered panel/index.html.erb within layouts/panel (0.1ms)
+  Rendered shared/_menu_top.html.erb (0.4ms)
+  Rendered shared/_menu_left.html.erb (1.8ms)
+Completed 200 OK in 66ms (Views: 62.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/evil-icons.css?body=1" for 127.0.0.1 at 2015-03-06 01:41:14 -0300
+
+
+Started GET "/assets/menu.css?body=1" for 127.0.0.1 at 2015-03-06 01:41:14 -0300
+
+
+Started GET "/assets/form.css?body=1" for 127.0.0.1 at 2015-03-06 01:41:14 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-06 01:41:14 -0300
+
+
+Started GET "/assets/landing-page.css?body=1" for 127.0.0.1 at 2015-03-06 01:41:14 -0300
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2015-03-06 01:41:14 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-06 01:41:14 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-06 01:41:14 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-06 01:41:14 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-06 01:41:14 -0300
+
+
+Started GET "/panel" for 127.0.0.1 at 2015-03-06 01:42:59 -0300
+Processing by PanelController#index as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 3  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered panel/index.html.erb within layouts/panel (0.1ms)
+  Rendered shared/_menu_top.html.erb (0.4ms)
+  Rendered shared/_menu_left.html.erb (1.8ms)
+Completed 200 OK in 63ms (Views: 60.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/form.css?body=1" for 127.0.0.1 at 2015-03-06 01:42:59 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-06 01:42:59 -0300
+
+
+Started GET "/assets/evil-icons.css?body=1" for 127.0.0.1 at 2015-03-06 01:42:59 -0300
+
+
+Started GET "/assets/landing-page.css?body=1" for 127.0.0.1 at 2015-03-06 01:42:59 -0300
+
+
+Started GET "/assets/menu.css?body=1" for 127.0.0.1 at 2015-03-06 01:42:59 -0300
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2015-03-06 01:42:59 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-06 01:42:59 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-06 01:42:59 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-06 01:42:59 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-06 01:42:59 -0300
+
+
+Started GET "/panel" for 127.0.0.1 at 2015-03-06 01:45:28 -0300
+Processing by PanelController#index as HTML
+  [1m[35mUser Load (0.6ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 3  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered panel/index.html.erb within layouts/panel (0.1ms)
+  Rendered shared/_menu_top.html.erb (0.4ms)
+  Rendered shared/_menu_left.html.erb (1.6ms)
+Completed 200 OK in 76ms (Views: 73.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/evil-icons.css?body=1" for 127.0.0.1 at 2015-03-06 01:45:28 -0300
+
+
+Started GET "/assets/landing-page.css?body=1" for 127.0.0.1 at 2015-03-06 01:45:28 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-06 01:45:28 -0300
+
+
+Started GET "/assets/menu.css?body=1" for 127.0.0.1 at 2015-03-06 01:45:28 -0300
+
+
+Started GET "/assets/form.css?body=1" for 127.0.0.1 at 2015-03-06 01:45:28 -0300
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2015-03-06 01:45:28 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-06 01:45:28 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-06 01:45:28 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-06 01:45:28 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-06 01:45:28 -0300
+
+
+Started GET "/panel" for 127.0.0.1 at 2015-03-06 01:48:23 -0300
+Processing by PanelController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 3  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered panel/index.html.erb within layouts/panel (0.1ms)
+  Rendered shared/_menu_top.html.erb (0.4ms)
+  Rendered shared/_menu_left.html.erb (1.4ms)
+Completed 200 OK in 64ms (Views: 61.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/evil-icons.css?body=1" for 127.0.0.1 at 2015-03-06 01:48:23 -0300
+
+
+Started GET "/assets/form.css?body=1" for 127.0.0.1 at 2015-03-06 01:48:23 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-06 01:48:23 -0300
+
+
+Started GET "/assets/menu.css?body=1" for 127.0.0.1 at 2015-03-06 01:48:23 -0300
+
+
+Started GET "/assets/landing-page.css?body=1" for 127.0.0.1 at 2015-03-06 01:48:23 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-06 01:48:23 -0300
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2015-03-06 01:48:23 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-06 01:48:23 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-06 01:48:23 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-06 01:48:23 -0300
+
+
+Started GET "/assets/evil-icons.css?body=1" for 127.0.0.1 at 2015-03-06 01:48:52 -0300
+
+
+Started GET "/assets/form.css?body=1" for 127.0.0.1 at 2015-03-06 01:48:52 -0300
+
+
+Started GET "/assets/landing-page.css?body=1" for 127.0.0.1 at 2015-03-06 01:48:52 -0300
+
+
+Started GET "/assets/menu.css?body=1" for 127.0.0.1 at 2015-03-06 01:48:52 -0300
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2015-03-06 01:48:52 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-06 01:48:52 -0300
+
+
+Started GET "/panel" for 127.0.0.1 at 2015-03-06 01:50:26 -0300
+Processing by PanelController#index as HTML
+  [1m[35mUser Load (0.9ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 3  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered panel/index.html.erb within layouts/panel (0.0ms)
+  Rendered shared/_menu_top.html.erb (0.4ms)
+  Rendered shared/_menu_left.html.erb (0.9ms)
+Completed 200 OK in 92ms (Views: 88.0ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/evil-icons.css?body=1" for 127.0.0.1 at 2015-03-06 01:50:26 -0300
+
+
+Started GET "/assets/landing-page.css?body=1" for 127.0.0.1 at 2015-03-06 01:50:26 -0300
+
+
+Started GET "/assets/form.css?body=1" for 127.0.0.1 at 2015-03-06 01:50:26 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-06 01:50:26 -0300
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2015-03-06 01:50:26 -0300
+
+
+Started GET "/assets/menu.css?body=1" for 127.0.0.1 at 2015-03-06 01:50:26 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-06 01:50:26 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-06 01:50:26 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-06 01:50:26 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-06 01:50:26 -0300
+
+
+Started GET "/panel" for 127.0.0.1 at 2015-03-06 01:50:33 -0300
+Processing by PanelController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 3  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered panel/index.html.erb within layouts/panel (0.0ms)
+  Rendered shared/_menu_top.html.erb (0.7ms)
+  Rendered shared/_menu_left.html.erb (0.9ms)
+Completed 200 OK in 81ms (Views: 79.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/evil-icons.css?body=1" for 127.0.0.1 at 2015-03-06 01:50:33 -0300
+
+
+Started GET "/assets/form.css?body=1" for 127.0.0.1 at 2015-03-06 01:50:33 -0300
+
+
+Started GET "/assets/landing-page.css?body=1" for 127.0.0.1 at 2015-03-06 01:50:33 -0300
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2015-03-06 01:50:33 -0300
+
+
+Started GET "/assets/menu.css?body=1" for 127.0.0.1 at 2015-03-06 01:50:33 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-06 01:50:33 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-06 01:50:33 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-06 01:50:33 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-06 01:50:33 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-06 01:50:33 -0300
+
+
+Started GET "/panel" for 127.0.0.1 at 2015-03-06 01:51:08 -0300
+Processing by PanelController#index as HTML
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 3  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered panel/index.html.erb within layouts/panel (0.1ms)
+  Rendered shared/_menu_top.html.erb (0.4ms)
+  Rendered shared/_menu_left.html.erb (0.7ms)
+Completed 200 OK in 86ms (Views: 83.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/evil-icons.css?body=1" for 127.0.0.1 at 2015-03-06 01:51:08 -0300
+
+
+Started GET "/assets/form.css?body=1" for 127.0.0.1 at 2015-03-06 01:51:08 -0300
+
+
+Started GET "/assets/landing-page.css?body=1" for 127.0.0.1 at 2015-03-06 01:51:08 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-06 01:51:08 -0300
+
+
+Started GET "/assets/menu.css?body=1" for 127.0.0.1 at 2015-03-06 01:51:08 -0300
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2015-03-06 01:51:08 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-06 01:51:08 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-06 01:51:08 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-06 01:51:08 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-06 01:51:08 -0300
+
+
+Started GET "/panel" for 127.0.0.1 at 2015-03-06 01:51:18 -0300
+Processing by PanelController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 3  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered panel/index.html.erb within layouts/panel (0.0ms)
+  Rendered shared/_menu_top.html.erb (0.4ms)
+  Rendered shared/_menu_left.html.erb (0.8ms)
+Completed 200 OK in 79ms (Views: 77.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/evil-icons.css?body=1" for 127.0.0.1 at 2015-03-06 01:51:18 -0300
+
+
+Started GET "/assets/landing-page.css?body=1" for 127.0.0.1 at 2015-03-06 01:51:18 -0300
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2015-03-06 01:51:18 -0300
+
+
+Started GET "/assets/menu.css?body=1" for 127.0.0.1 at 2015-03-06 01:51:18 -0300
+
+
+Started GET "/assets/form.css?body=1" for 127.0.0.1 at 2015-03-06 01:51:18 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-06 01:51:18 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-06 01:51:18 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-06 01:51:18 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-06 01:51:18 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-06 01:51:18 -0300
+
+
+Started GET "/assets/form.css?body=1" for 127.0.0.1 at 2015-03-06 01:51:37 -0300
+
+
+Started GET "/assets/landing-page.css?body=1" for 127.0.0.1 at 2015-03-06 01:51:37 -0300
+
+
+Started GET "/assets/evil-icons.css?body=1" for 127.0.0.1 at 2015-03-06 01:51:37 -0300
+
+
+Started GET "/assets/menu.css?body=1" for 127.0.0.1 at 2015-03-06 01:51:37 -0300
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2015-03-06 01:51:37 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-06 01:51:37 -0300
+
+
+Started GET "/panel" for 127.0.0.1 at 2015-03-06 01:52:32 -0300
+Processing by PanelController#index as HTML
+  [1m[35mUser Load (1.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 3  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered panel/index.html.erb within layouts/panel (0.0ms)
+  Rendered shared/_menu_top.html.erb (0.4ms)
+  Rendered shared/_menu_left.html.erb (0.7ms)
+Completed 200 OK in 87ms (Views: 83.8ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/evil-icons.css?body=1" for 127.0.0.1 at 2015-03-06 01:52:32 -0300
+
+
+Started GET "/assets/form.css?body=1" for 127.0.0.1 at 2015-03-06 01:52:32 -0300
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2015-03-06 01:52:32 -0300
+
+
+Started GET "/assets/menu.css?body=1" for 127.0.0.1 at 2015-03-06 01:52:32 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-06 01:52:32 -0300
+
+
+Started GET "/assets/landing-page.css?body=1" for 127.0.0.1 at 2015-03-06 01:52:32 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-06 01:52:32 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-06 01:52:32 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-06 01:52:32 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-06 01:52:32 -0300
+
+
+Started GET "/panel" for 127.0.0.1 at 2015-03-06 01:54:14 -0300
+Processing by PanelController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 3  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered panel/index.html.erb within layouts/panel (0.1ms)
+  Rendered shared/_menu_top.html.erb (0.9ms)
+  Rendered shared/_menu_left.html.erb (0.7ms)
+Completed 200 OK in 67ms (Views: 65.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/form.css?body=1" for 127.0.0.1 at 2015-03-06 01:54:14 -0300
+
+
+Started GET "/assets/evil-icons.css?body=1" for 127.0.0.1 at 2015-03-06 01:54:14 -0300
+
+
+Started GET "/assets/landing-page.css?body=1" for 127.0.0.1 at 2015-03-06 01:54:14 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-06 01:54:14 -0300
+
+
+Started GET "/assets/menu.css?body=1" for 127.0.0.1 at 2015-03-06 01:54:14 -0300
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2015-03-06 01:54:14 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-06 01:54:14 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-06 01:54:14 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-06 01:54:14 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-06 01:54:14 -0300
+
+
+Started GET "/panel" for 127.0.0.1 at 2015-03-06 01:54:36 -0300
+Processing by PanelController#index as HTML
+  [1m[35mUser Load (0.6ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 3  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered panel/index.html.erb within layouts/panel (0.0ms)
+  Rendered shared/_menu_top.html.erb (0.9ms)
+  Rendered shared/_menu_left.html.erb (0.8ms)
+Completed 200 OK in 72ms (Views: 70.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/evil-icons.css?body=1" for 127.0.0.1 at 2015-03-06 01:54:36 -0300
+
+
+Started GET "/assets/form.css?body=1" for 127.0.0.1 at 2015-03-06 01:54:36 -0300
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2015-03-06 01:54:36 -0300
+
+
+Started GET "/assets/landing-page.css?body=1" for 127.0.0.1 at 2015-03-06 01:54:36 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-06 01:54:36 -0300
+
+
+Started GET "/assets/menu.css?body=1" for 127.0.0.1 at 2015-03-06 01:54:36 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-06 01:54:36 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-06 01:54:36 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-06 01:54:36 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-06 01:54:36 -0300
+
+
+Started GET "/panel" for 127.0.0.1 at 2015-03-06 01:54:41 -0300
+Processing by PanelController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 3  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered panel/index.html.erb within layouts/panel (0.1ms)
+  Rendered shared/_menu_top.html.erb (0.9ms)
+  Rendered shared/_menu_left.html.erb (1.0ms)
+Completed 200 OK in 70ms (Views: 66.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/evil-icons.css?body=1" for 127.0.0.1 at 2015-03-06 01:54:41 -0300
+
+
+Started GET "/assets/menu.css?body=1" for 127.0.0.1 at 2015-03-06 01:54:41 -0300
+
+
+Started GET "/assets/form.css?body=1" for 127.0.0.1 at 2015-03-06 01:54:41 -0300
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2015-03-06 01:54:41 -0300
+
+
+Started GET "/assets/landing-page.css?body=1" for 127.0.0.1 at 2015-03-06 01:54:41 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-06 01:54:41 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-06 01:54:41 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-06 01:54:41 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-06 01:54:41 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-06 01:54:41 -0300
+
+
+Started GET "/panel" for 127.0.0.1 at 2015-03-06 01:54:47 -0300
+Processing by PanelController#index as HTML
+  [1m[35mUser Load (1.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 3  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered panel/index.html.erb within layouts/panel (0.1ms)
+  Rendered shared/_menu_top.html.erb (0.9ms)
+  Rendered shared/_menu_left.html.erb (0.7ms)
+Completed 200 OK in 72ms (Views: 68.5ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/evil-icons.css?body=1" for 127.0.0.1 at 2015-03-06 01:54:48 -0300
+
+
+Started GET "/assets/landing-page.css?body=1" for 127.0.0.1 at 2015-03-06 01:54:48 -0300
+
+
+Started GET "/assets/menu.css?body=1" for 127.0.0.1 at 2015-03-06 01:54:48 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-06 01:54:48 -0300
+
+
+Started GET "/assets/form.css?body=1" for 127.0.0.1 at 2015-03-06 01:54:48 -0300
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2015-03-06 01:54:48 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-06 01:54:48 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-06 01:54:48 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-06 01:54:48 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-06 01:54:48 -0300
+
+
+Started GET "/panel" for 127.0.0.1 at 2015-03-06 01:56:03 -0300
+Processing by PanelController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 3  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered panel/index.html.erb within layouts/panel (0.1ms)
+  Rendered shared/_menu_top.html.erb (1.0ms)
+  Rendered shared/_menu_left.html.erb (0.7ms)
+Completed 200 OK in 66ms (Views: 63.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2015-03-06 01:56:03 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-06 01:56:03 -0300
+
+
+Started GET "/assets/form.css?body=1" for 127.0.0.1 at 2015-03-06 01:56:03 -0300
+
+
+Started GET "/assets/landing-page.css?body=1" for 127.0.0.1 at 2015-03-06 01:56:03 -0300
+
+
+Started GET "/assets/menu.css?body=1" for 127.0.0.1 at 2015-03-06 01:56:03 -0300
+
+
+Started GET "/assets/evil-icons.css?body=1" for 127.0.0.1 at 2015-03-06 01:56:03 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-06 01:56:03 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-06 01:56:03 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-06 01:56:03 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-06 01:56:03 -0300
+
+
+Started GET "/panel" for 127.0.0.1 at 2015-03-06 01:56:34 -0300
+Processing by PanelController#index as HTML
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 3  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered panel/index.html.erb within layouts/panel (0.1ms)
+  Rendered shared/_menu_top.html.erb (0.8ms)
+  Rendered shared/_menu_left.html.erb (0.7ms)
+Completed 200 OK in 66ms (Views: 63.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/form.css?body=1" for 127.0.0.1 at 2015-03-06 01:56:34 -0300
+
+
+Started GET "/assets/landing-page.css?body=1" for 127.0.0.1 at 2015-03-06 01:56:34 -0300
+
+
+Started GET "/assets/menu.css?body=1" for 127.0.0.1 at 2015-03-06 01:56:34 -0300
+
+
+Started GET "/assets/evil-icons.css?body=1" for 127.0.0.1 at 2015-03-06 01:56:34 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-06 01:56:34 -0300
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2015-03-06 01:56:34 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-06 01:56:34 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-06 01:56:34 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-06 01:56:34 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-06 01:56:34 -0300
+
+
+Started GET "/panel" for 127.0.0.1 at 2015-03-06 01:58:01 -0300
+Processing by PanelController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 3  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered panel/index.html.erb within layouts/panel (0.1ms)
+  Rendered shared/_menu_top.html.erb (0.4ms)
+  Rendered shared/_menu_left.html.erb (0.7ms)
+Completed 200 OK in 89ms (Views: 86.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/evil-icons.css?body=1" for 127.0.0.1 at 2015-03-06 01:58:02 -0300
+
+
+Started GET "/assets/form.css?body=1" for 127.0.0.1 at 2015-03-06 01:58:02 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-06 01:58:02 -0300
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2015-03-06 01:58:02 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-06 01:58:02 -0300
+
+
+Started GET "/assets/landing-page.css?body=1" for 127.0.0.1 at 2015-03-06 01:58:02 -0300
+
+
+Started GET "/assets/menu.css?body=1" for 127.0.0.1 at 2015-03-06 01:58:02 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-06 01:58:02 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-06 01:58:02 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-06 01:58:02 -0300
+
+
+Started GET "/panel" for 127.0.0.1 at 2015-03-06 01:58:08 -0300
+Processing by PanelController#index as HTML
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 3  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered panel/index.html.erb within layouts/panel (0.1ms)
+  Rendered shared/_menu_top.html.erb (0.4ms)
+  Rendered shared/_menu_left.html.erb (0.8ms)
+Completed 200 OK in 80ms (Views: 77.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/evil-icons.css?body=1" for 127.0.0.1 at 2015-03-06 01:58:08 -0300
+
+
+Started GET "/assets/form.css?body=1" for 127.0.0.1 at 2015-03-06 01:58:08 -0300
+
+
+Started GET "/assets/landing-page.css?body=1" for 127.0.0.1 at 2015-03-06 01:58:08 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-06 01:58:08 -0300
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2015-03-06 01:58:08 -0300
+
+
+Started GET "/assets/menu.css?body=1" for 127.0.0.1 at 2015-03-06 01:58:08 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-06 01:58:08 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-06 01:58:08 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-06 01:58:08 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-06 01:58:08 -0300
+
+
+Started GET "/panel" for 127.0.0.1 at 2015-03-06 01:58:13 -0300
+Processing by PanelController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 3  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered panel/index.html.erb within layouts/panel (0.0ms)
+  Rendered shared/_menu_top.html.erb (0.4ms)
+  Rendered shared/_menu_left.html.erb (0.8ms)
+Completed 200 OK in 87ms (Views: 84.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/evil-icons.css?body=1" for 127.0.0.1 at 2015-03-06 01:58:13 -0300
+
+
+Started GET "/assets/landing-page.css?body=1" for 127.0.0.1 at 2015-03-06 01:58:13 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-06 01:58:13 -0300
+
+
+Started GET "/assets/menu.css?body=1" for 127.0.0.1 at 2015-03-06 01:58:13 -0300
+
+
+Started GET "/assets/form.css?body=1" for 127.0.0.1 at 2015-03-06 01:58:13 -0300
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2015-03-06 01:58:13 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-06 01:58:13 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-06 01:58:13 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-06 01:58:13 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-06 01:58:13 -0300
+
+
+Started GET "/panel" for 127.0.0.1 at 2015-03-06 01:58:52 -0300
+Processing by PanelController#index as HTML
+  [1m[35mUser Load (1.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 3  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered panel/index.html.erb within layouts/panel (0.1ms)
+  Rendered shared/_menu_top.html.erb (0.3ms)
+  Rendered shared/_menu_left.html.erb (0.8ms)
+Completed 200 OK in 73ms (Views: 67.8ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/panel" for 127.0.0.1 at 2015-03-06 01:58:54 -0300
+Processing by PanelController#index as HTML
+  [1m[36mUser Load (1.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 3  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered panel/index.html.erb within layouts/panel (0.1ms)
+  Rendered shared/_menu_top.html.erb (0.3ms)
+  Rendered shared/_menu_left.html.erb (0.8ms)
+Completed 200 OK in 80ms (Views: 75.2ms | ActiveRecord: 1.2ms)

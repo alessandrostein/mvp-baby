@@ -14,6 +14,11 @@
   text-decoration: none;
 }
 
+.menu-left ul li a i {
+  padding-bottom: 20px;
+  color: #404040;
+}
+
 .menu-top {
   float: top;
   width: 100%;
@@ -59,4 +64,9 @@
 
 .menu-top .content-right ul li a {
   text-decoration: none;
+}
+
+.menu-top .content-right ul li a {
+  padding-left: 10px;
+  color: #404040;
 }
