@@ -14,3 +14,12 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+//= require awesomplete.min
+
+$(function() {
+
+  $('.navicon-left i').bind('click', function(){
+    $('.menu-left').show();
+  });
+
+});

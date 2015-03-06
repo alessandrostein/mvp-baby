@@ -26,6 +26,12 @@
   background-color: #E5E5E5;
 }
 
+.menu-top .navicon-left {
+  float: left;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
 .menu-top .content-left {
   float: left;
   padding-top: 10px;
