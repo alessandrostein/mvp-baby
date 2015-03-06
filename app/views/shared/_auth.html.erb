@@ -1,20 +1,20 @@
-<div class="auth">
+<div class="form">
   <% if user_signed_in? %>
-    <div class="auth-edit">
+    <div class="form-edit">
       <%= link_to('Editar conta', edit_user_registration_path) %>
     </div>
   <% else %>
-    <div class="auth-register">
+    <div class="form-register">
       <%= link_to('Cadastre-se', new_user_registration_path)  %>
     </div>
   <% end %>
 
   <% if user_signed_in? %>
-    <div class="auth-logout">
+    <div class="form-logout">
       <%= link_to('Sair', destroy_user_session_path, :method => :delete) %>
     </div>
   <% else %>
-    <div class="auth-login">
+    <div class="form-login">
       <%= link_to('Entrar', new_user_session_path)  %>
     </div>
   <% end %>

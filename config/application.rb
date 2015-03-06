@@ -21,7 +21,7 @@ module MvpBaby
     # config.i18n.default_locale = :de
     # config.i18n.default_locale = :'pt-BR'
     config.to_prepare do
-      Devise::SessionsController.layout "panel"
+      Devise::SessionsController.layout "auth"
     end
   end
 end

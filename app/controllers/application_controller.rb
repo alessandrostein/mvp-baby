@@ -6,6 +6,6 @@ class ApplicationController < ActionController::Base
   protected
 
   def after_sign_in_path_for(resource)
-    return after_signup_path(:add_family)
+    return panel_index_path
   end
 end

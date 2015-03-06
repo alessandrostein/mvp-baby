@@ -9,7 +9,7 @@ gem 'pg'
 
 gem 'devise'
 
-gem 'wicked'
+gem 'evil_icons'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'

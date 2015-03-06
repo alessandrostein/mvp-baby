@@ -2,7 +2,7 @@ Rails.application.routes.draw do
 
   devise_for :users, controllers: {  registrations: "registrations" }
   resources :leads
-  resources :after_signup
+  resources :panel
 
   root to: 'leads#index'
 

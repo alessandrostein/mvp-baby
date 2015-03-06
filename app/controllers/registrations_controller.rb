@@ -1,6 +1,6 @@
 class RegistrationsController < Devise::RegistrationsController
 
-  layout 'panel'
+  layout 'auth'
 
   # GET /resource/sign_up
   def new
